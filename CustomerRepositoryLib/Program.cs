@@ -11,7 +11,7 @@ builder.Services.AddDbContext<CustomerDbContext>(options =>
         "Server=CODE-PC\\SQLEXPRESS;Database=CustomerDB;Trusted_Connection=True;TrustServerCertificate=True;"
     )
 );
-
+//
 // ---------------------------------------------------------
 // 2. Register Repository (choose LIST or DATABASE)
 // ---------------------------------------------------------
